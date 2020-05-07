@@ -65,8 +65,8 @@ print(f"Winner: {winner_name}")
 Summary.append(f"Winner: {winner_name}")
 
 
-output_path = os.path.join("PyBank.txt")
+output_path = os.path.join("../Analysis", "PyPoll.txt")
 
-with open("PyPoll.txt","w") as PyPoll_text:
+with open(output_path,"w") as PyPoll_text:
    
     PyPoll_text.write('\n'.join(Summary))

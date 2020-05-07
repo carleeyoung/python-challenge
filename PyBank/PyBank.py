@@ -76,11 +76,11 @@ print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decr
 
 
 #Write results summary in a .txt file
-output_path = os.path.join("PyBank.txt")
+output_path = os.path.join("../Analysis", "PyBank.txt")
 
 Summary = ["Financial Analysis", "------------------------------------", f"Total Months: {months}", f"Total: ${netProfit}", f"Average Change: ${round(averageChange, 2)}", f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_increase})", f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})"]  
 
-with open("PyBank.txt","w") as PyBank_text:
+with open(output_path,"w") as PyBank_text:
    
     PyBank_text.write('\n'.join(Summary))
 
