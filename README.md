@@ -1,8 +1,8 @@
 # python-challenge
 
-Python coding was used to complete analysis on two datasets for bank investments and election results.  Results are as follows:
+In this exercise, the first challenge is to create a Python script to analyze financial records from a budget dataset.  The second challenge is to create a vote counting Python script to count votes for election candidates and determine a winner.  A summary output is created for each challenge in both the terminal window and written to a text file stored in the analysis folder.  
 
-### Banking Data
+### Banking Data Results
 Financial Analysis
 ------------------------------------
 Total Months: 86
@@ -11,7 +11,7 @@ Average Change: $-2288.2
 Greatest Increase in Profits: Feb-12 ($1926159)
 Greatest Decrease in Profits: Sep-13 ($-2196167)
 
-### Poll Data
+### Poll Data Results
 Election Results
 ------------------------------------
 Total Votes: 3521001
